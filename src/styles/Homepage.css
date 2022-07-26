@@ -1,0 +1,189 @@
+.intro{
+    height: 100vh;
+}
+.intro::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 45, 45, 0.6);
+    
+}
+
+.build, .empire, p{
+    color: white;
+    position: relative;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.wrapper h1{
+    margin: 1.2rem 0rem;
+    font-size: 2rem;
+}
+.intro p{
+    color: blanchedalmond;
+}
+
+.activities{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    background-color:  rgba(216, 216, 208, 0.856);
+}
+
+.mobileApp, .website, .machineLearning{
+    margin-right: 5rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.machineLearning:hover{
+    transform:scale(120%);
+    transition: all 0.3s;
+}
+
+.website:hover{
+    transform:scale(120%);
+    transition: all 0.3s;
+}
+
+.mobileApp:hover{
+    transform:scale(120%);
+    transition: all 0.3s;
+}
+
+.historySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.historyInfo{
+    flex-basis: 45%;
+    padding: 0rem 3.5rem;
+}
+
+.historyInfo h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.historyInfo p{
+    color: black;
+    font-size: 1.1rem;
+}
+
+.historyPic{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.historyPic::before{
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    content: "";
+    background-color: lightblue;
+    
+}
+
+.allWrapper{
+    padding: 2rem 0;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.all img{
+    width: 250px;
+    padding: 0 2rem
+}
+
+.all img:hover{
+    transform: scale(120%);
+    transition: all 1s;
+}
+
+.maltechDigital{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.messagebox{
+    text-align: right;
+    position: absolute;
+    color: white;
+    left: 65%;
+    top: 30%
+}
+
+
+.signUp{
+    height: 60vh;
+    background-image: url(../images/tutoring.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 40%;
+    bottom: 30%
+   
+}
+
+.signUpMesage{
+    padding: .9rem 2.3rem;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.signUp::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(45, 45, 45, 0.5);
+}
+
+.messagebox h1{
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.message{
+    color: rgba(233, 230, 230, 0.705);
+    font-size: 1.3rem;
+}
